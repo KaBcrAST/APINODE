@@ -59,4 +59,4 @@ jobs:
           app-name: 'APIdecanode'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BCF3DED85E914859BC9260CA19F0B9D0 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F71DB8ADADE4458494B02A33ED823E3D }}
