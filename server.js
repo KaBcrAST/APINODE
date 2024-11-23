@@ -63,13 +63,13 @@ const Mutation = new GraphQLObjectType({
 })
 
 const schema = new GraphQLSchema({query: RootQuery, mutation: Mutation})
-app.use("/graphql", graphqlHTTP({
+app.use("/graph", graphqlHTTP({
     schema,
     graphiql: true,
   })
 );
 
-app.get("/rest/getAllUser", (req, res) => {
+app.get("/rest/getAllUsers", (req, res) => {
     res.send(userData)
    });
 
